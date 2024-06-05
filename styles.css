@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 80px;
+  background: #226324;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.row {
+  --bs-gutter-x: unset !important;
+}
+
+.row, .container {
+  height: 100%;
+}
+
+.row > .service {
+  /* Temporary */
+  /* height: 300px; */
+  border: 1px solid #aaa;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  max-width: 300px; 
+}
+
+.row i {
+  font-size: 70px;
+  color: #226324;
+}
+
+.row h3 {
+  height: 80px
+}
